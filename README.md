@@ -43,7 +43,28 @@ Phiên bản cụ thể được khai báo trong các `package.json` tương ứ
 ## 🚀 3. Hình ảnh các chức năng
 
 
+<p align="center">
+<img src="https://github.com/hohuy1105/DU-BAO-CHUNG-KHOAN/blob/main/stock_check/stock_check/%E1%BA%A2nh/1.jpg?raw=true " alt="Chức năng đăng nhập" width="700"/>
+</p>
 
+<p align="center">
+  <em>Hình 1: Giao diện đăng nhập/đăng ký  </em>
+</p>
+
+<p align="center">
+<img src="https://github.com/hohuy1105/DU-BAO-CHUNG-KHOAN/blob/main/stock_check/stock_check/%E1%BA%A2nh/2.jpg?raw=true" alt="Chức năng đăng ký" width="700"/>
+</p>
+<p align="center">
+  <em> Hình 2: Giao diện trang chủ </em>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/hohuy1105/DU-BAO-CHUNG-KHOAN/blob/main/stock_check/stock_check/%E1%BA%A2nh/3.jpg?raw=true " alt="Hệ thống thông báo tham gia thành công" width="800"/>
+</p>
+<p align="center">
+  <em> Hình 3: Chức năng phân tích .</em>
+</p>
 
 
 
