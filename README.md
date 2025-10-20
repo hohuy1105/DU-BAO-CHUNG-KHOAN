@@ -154,5 +154,3 @@ Email: hoquanghuy1105@gmail.com.
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
 
----
-Tôi đã viết hướng dẫn cơ bản; nếu bạn muốn README chi tiết hơn (mô tả endpoint, các biến .env đầy đủ, hướng dẫn test), cho tôi biết để tôi cập nhật.
