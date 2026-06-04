@@ -23,7 +23,7 @@
 ---
 
 <p align="center">
-  <img src="poster.jpg" alt="Poster Đồ Án Blockchain" width="850"/>
+  <img src="poterquanlyhosobenhan" alt="Poster Đồ Án Blockchain" width="850"/>
 </p>
 
 
