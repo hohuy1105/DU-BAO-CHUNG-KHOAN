@@ -1,4 +1,3 @@
-
 <h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
     🎓 Faculty of Information Technology (DaiNam University)
@@ -14,7 +13,6 @@
       <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/CHAT%20TCP/%E1%BA%A2nh/dnu_logo.png?raw=true" alt="DaiNam University Logo" width="200"/>
     </p>
 
-
 [![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
@@ -23,9 +21,8 @@
 ---
 
 <p align="center">
-  <img src="poterquanlyhosobenhan" alt="Poster Đồ Án Blockchain" width="850"/>
+  <img src="poster.jpg" alt="Poster Đồ Án Blockchain" width="850"/>
 </p>
-
 
 ---
 
@@ -114,7 +111,7 @@ Khởi chạy phần mềm chỉnh sửa mã nguồn VS Code và chọn mở th�
 Truy cập vào tệp tin index.html.
 Cuộn chuột tìm đến khu vực thẻ <script> (khoảng dòng 120) và tìm hằng số:
 JavaScript
-   const contractAddress = "NHẬP_ĐỊA_CHỈ_VỪA_COPY_TẠI_ĐÂY";
+const contractAddress = "NHẬP_ĐỊA_CHỈ_VỪA_COPY_TẠI_ĐÂY";
 Thực hiện dán đè chuỗi địa chỉ ví contract mới vừa tạo ở Bước 3 vào giữa hai dấu ngoặc kép và nhấn tổ hợp phím Cmd + S (hoặc Ctrl + S trên Windows) để ghi nhận lưu file an toàn.
 🌐 Bước 5: Kích hoạt Giao diện làm việc (Live Server)
 Tại giao diện file index.html trong VS Code, Huy nhấp chuột phải vào vùng soạn thảo code và chọn dòng Open with Live Server (hoặc click vào nút Go Live ở thanh trạng thái nằm tại góc dưới cùng bên phải màn hình).
@@ -128,7 +125,7 @@ STT	Kịch bản kiểm thử (Test Case)	Dữ liệu đầu vào (Inputs)	Kết
 2	Kiểm tra chức năng Đăng ký/Kết nối danh tính người dùng Web3.	Bác sĩ nhấp nút "1. KẾT NỐI VÍ METAMASK" và duyệt quyền.	Hệ thống nhận diện thành công, chuyển đổi trạng thái giao diện và lấy địa chỉ ví làm định danh.	Địa chỉ ví hệ Hex (0x...) hiển thị chính xác, hộp đen đổi sang màu xanh báo thành công.	ĐẠT
 3	Kiểm tra chức năng Tạo hồ sơ bệnh án và Ghi dữ liệu chuỗi khối.	Điền mã bệnh nhân BN-99 và nội dung chẩn đoán bệnh. Nhấn nút số 2.	MetaMask tự động kích hoạt pop-up, yêu cầu ký số xác thực và tính phí gas.	Giao dịch được khai thác đóng khối thành công, Hardhat Terminal sinh mã transaction hash.	ĐẠT
 4	Kiểm tra chức năng Đồng bộ và Kết xuất dữ liệu lịch sử.	Nhấp chọn nút số 3 "3. XEM LỊCH SỬ HỒ SƠ" ngay sau khi đóng khối thành công.	Hệ thống thực thi vòng lặp quét, đồng bộ và hiển thị thông tin bệnh án trực quan ra màn hình.	Bảng danh sách bệnh lý xuất hiện mượt mà dưới đáy giao diện với đầy đủ mốc thời gian Unix thực tế.	ĐẠT
-5. 👤 Thông tin bản quyền và liên hệ học phần
+👤 5. Thông tin bản quyền và liên hệ học phần
 Sinh viên thực hiện: Hồ Quang Huy
 Mã số sinh viên: 1671020137
 Lớp chuyên ngành: 16-01 CNTT
