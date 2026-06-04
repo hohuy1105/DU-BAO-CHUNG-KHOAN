@@ -23,8 +23,9 @@
 ---
 
 <p align="center">
-  <img src="QU%E1%BA%A2N%20L%C3%9D%20H%E1%BB%92%20S%C6%A0%20B%E1%BB%86NH%20%C3%81N.jpg" alt="Poster Đồ Án Blockchain" width="850"/>
+  <img src="poster.jpg" alt="Poster Đồ Án Blockchain" width="850"/>
 </p>
+
 
 ---
 
