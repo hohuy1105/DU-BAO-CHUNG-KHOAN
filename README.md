@@ -4,8 +4,8 @@
     </a>
 </h2>
 <h2 align="center">
-  DỰ BÁO CHỨNG KHOÁN , DÙNG AI CỦA GEMINI ,
-PHÂN TÍCH XU THẾ LÊN XUỐNG CỦA CHỨNG KHOÁN
+ 🏥 HỆ THỐNG QUẢN LÝ HỒ SƠ BỆNH ÁN ĐIỆN TỬ
+<br>TRÊN NỀN TẢNG CÔNG NGHỆ BLOCKCHAIN
 </h2>
 <div align="center">
     <p align="center">
@@ -20,137 +20,12 @@ PHÂN TÍCH XU THẾ LÊN XUỐNG CỦA CHỨNG KHOÁN
 
 </div>
 
-
+---
 
 ## 📖 1. Giới thiệu hệ thống
 
-`Stock Check` là một dự án mẫu gồm backend (API) và frontend (giao diện web) để theo dõi dữ liệu chứng khoán, hiển thị biểu đồ và cung cấp một số chỉ báo kỹ thuật. Hệ thống gồm:
-- `stock-backend`: server nhỏ dùng Node.js + Express, cung cấp API cho frontend, xử lý xác thực (JWT), và một số endpoint phục vụ dữ liệu kỹ thuật.
-- `stock-frontend`: ứng dụng SPA React + Vite, hiển thị dashboard, biểu đồ cùng các thành phần UI (Ant Design, ApexCharts, v.v.).
+`MedicalBlockchain` là một ứng dụng phi tập trung (dApp) nhằm số hóa, bảo mật và lưu trữ hồ sơ bệnh án điện tử của bệnh nhân. Hệ thống giải quyết triệt để bài toán rò rỉ thông tin y tế, nguy cơ sập máy chủ trung tâm (SPOF) hoặc sửa đổi lịch sử chẩn đoán lén lút của mô hình Web2 truyền thống bằng cách tận dụng tính bất biến và phi tập trung của công nghệ Blockchain.
 
-Mục tiêu của README này là hướng dẫn cài đặt và chạy nhanh cả hai phần trên môi trường phát triển.
-
-## 🔧 2. Công nghệ sử dụng
-
-- Backend: Node.js, Express, dotenv, cors, jsonwebtoken, bcryptjs, node-cache
-- Frontend: React, Vite, Ant Design, ApexCharts, react-router-dom
-- Các thư viện dùng chung: axios
-
-Phiên bản cụ thể được khai báo trong các `package.json` tương ứng.
-
-
-
-## 🚀 3. Hình ảnh các chức năng
-
-
-<p align="center">
-<img src="https://github.com/hohuy1105/DU-BAO-CHUNG-KHOAN/blob/main/stock_check/stock_check/%E1%BA%A2nh/1.jpg?raw=true " alt="Chức năng đăng nhập" width="700"/>
-</p>
-
-<p align="center">
-  <em>Hình 1: Giao diện đăng nhập/đăng ký  </em>
-</p>
-
-<p align="center">
-<img src="https://github.com/hohuy1105/DU-BAO-CHUNG-KHOAN/blob/main/stock_check/stock_check/%E1%BA%A2nh/2.jpg?raw=true" alt="Chức năng đăng ký" width="700"/>
-</p>
-<p align="center">
-  <em> Hình 2: Giao diện trang chủ </em>
-</p>
-
-
-<p align="center">
-  <img src="https://github.com/hohuy1105/DU-BAO-CHUNG-KHOAN/blob/main/stock_check/stock_check/%E1%BA%A2nh/3.jpg?raw=true " alt="Hệ thống thông báo tham gia thành công" width="800"/>
-</p>
-<p align="center">
-  <em> Hình 3: Chức năng phân tích .</em>
-</p>
-
-
-
-
-
-
-
-
-## 📝 4. Hướng dẫn cài đặt và sử dụng
-
-Hướng dẫn dưới đây giả định bạn đang sử dụng Windows PowerShell (mặc định trong môi trường này). Thay `npm` bằng `yarn` nếu bạn dùng Yarn.
-
-1) Mở terminal và điều hướng vào thư mục gốc dự án:
-
-```powershell
-cd C:\Users\Admin\Downloads\stock_check\stock_check
-```
-
-2) Cài đặt dependencies cho backend và frontend
-
-- Backend:
-
-```powershell
-cd stock-backend
-npm install
-```
-
-- Frontend:
-
-```powershell
-cd ..\stock-frontend
-npm install
-```
-
-3) Cấu hình biến môi trường (nếu cần)
-
-- Backend có thể sử dụng một file `.env` nằm trong `stock-backend/`. Một số biến thường dùng (tùy code):
-
-```
-PORT=3001
-JWT_SECRET=your_jwt_secret_here
-API_KEY=...
-```
-
-Hãy kiểm tra mã nguồn trong `stock-backend` để biết tên biến môi trường cụ thể.
-
-4) Chạy hệ thống ở môi trường phát triển
-
-- Chạy backend (một số dự án dùng `node index.js` hoặc script khác). Nếu không có script `start` trong `package.json`, bạn có thể chạy trực tiếp `node index.js`:
-
-```powershell
-cd ..\stock-backend
-node index.js
-# hoặc (nếu có script start):
-npm start
-```
-
-- Chạy frontend (dùng Vite):
-
-```powershell
-cd ..\stock-frontend
-npm run dev
-```
-
-Sau khi frontend chạy, mặc định Vite sẽ xuất một URL (thường là http://localhost:5173) để truy cập giao diện.
-
-5) Tương tác với API
-
-- Endpoint và routes cụ thể nằm trong `stock-backend`. Bạn có thể dùng Postman hoặc curl để gọi API.
-
-6) Build production
-
-- Frontend: trong `stock-frontend` chạy
-
-```powershell
-npm run build
-```
-
-- Backend: tuỳ vào cách triển khai, bạn có thể tạo một service hoặc deploy lên nền tảng hosting Node (Heroku, VPS, Docker...).
-
-
-
-## 5.👤Thông tin liên hệ  
-Họ tên: Hồ Quang Huy  
-Lớp: CNTT 16-01.  
-Email: hoquanghuy1105@gmail.com.
-
-© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
-
+Hệ thống được thiết kế theo mô hình kiến trúc lai (Hybrid Architecture) tối ưu:
+- **Tầng Smart Contract (`MedicalRecords.sol`)**: Được lập trình bằng Solidity, chịu trách nhiệm định nghĩa cấu trúc bệnh án, kiểm tra toàn vẹn dữ liệu bằng mã băm Keccak-256 và lưu trữ chứng cứ bất biến trực tiếp trên mạng lưới chuỗi khối.
+- **Tầng Web Client
